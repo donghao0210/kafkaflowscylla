@@ -1,0 +1,46 @@
+Version 0.1.0.0
+- Insertion using Scylla DB
+- Added logging for basic Operations
+- Changed of utils directory
+- Removed master switch
+
+Version 0.0.1.1
+- Update Operations
+
+Version 0.0.1.0
+- Changed DB, from MySQL to MongoDB
+- Removed the needs of csv
+
+Version 0.0.0.7
+- Restructured the code and logics
+
+Version 0.0.0.6
+- Remove CSV_INSERT_THRESHOLD checking, Fully use timer
+- Remove unwanted commands
+- Add Time to Debug messages
+
+Version 0.0.0.5
+- Remove \n and spaces from Messages
+- Changed Update function
+- Added Dummy.py for code testing
+
+Version 0.0.0.4 
+- DB connection as Utils
+- Fix error for check existing records
+- Changes config.yaml to config.yml to keep the consistency over projects
+
+Version 0.0.0.3
+- Master Switch uses ENV MASTER_SWITCH
+
+Version 0.0.0.3
+- Added master switch
+
+Version 0.0.0.2
+- Added DEBUG state, If true it will print out current status.
+- Changed file structure
+
+Version 0.0.0.2
+- Added "Source" into payload
+
+Version 0.0.0.1
+- Init Kafka Message to MySQL script 

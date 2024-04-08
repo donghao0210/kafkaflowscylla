@@ -1,0 +1,17 @@
+
+database:
+  host: 127.0.0.1
+  port: 3306
+  user: "admin"
+  password: "admin"
+  database: "db"
+
+kafka_config:
+    bootstrap.servers: 'kafka server'
+    group.id: 'my_consumer_group_1'
+    security.protocol: 'sasl_ssl'
+    sasl.mechanisms: 'SCRAM-SHA-512'
+    sasl.username: 'username'
+    auto.offset.reset: 'earliest'
+    sasl.password: 'password'
+    enable.auto.commit: True
